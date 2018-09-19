@@ -1,14 +1,28 @@
 package com.murucsal.model;
 
 public class Usuario {
+	private Integer id;
+
+	public Integer getId() {
+		return id;
+	}
+
+	public void setId(Integer id) {
+		this.id = id;
+	}
+
 	private String email;
 	private String nome;
 	private String senha;
 
-	public Usuario(String email, String nome, String senha) {
-		super();
+	public Usuario(String email, String senha, String nome) {
 		this.email = email;
 		this.nome = nome;
+		this.senha = senha;
+	}
+
+	public Usuario(String email, String senha) {
+		this.email = email;
 		this.senha = senha;
 	}
 
