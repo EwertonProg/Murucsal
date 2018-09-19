@@ -12,7 +12,7 @@
 
 <!--Let browser know website is optimized for mobile-->
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Insert title here</title>
+<title>Murucsal</title>
 </head>
 <body class="green darken-1">
 	<nav>
